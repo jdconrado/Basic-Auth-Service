@@ -24,7 +24,8 @@ JSON_SECRET=
 
 3. Apply migrations running the following on your terminal:
 ```
-> cd db && knex migrate:latest
+> cd db
+> knex migrate:latest
 ```
 
 *Note:* For more info on migrations, check: http://knexjs.org/#Migrations
