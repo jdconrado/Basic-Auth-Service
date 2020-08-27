@@ -1,5 +1,5 @@
 if(process.env.ENV !== 'PRODUCTION'){
-  require('dotenv').config();
+  require('dotenv').config({path:__dirname+'/../.env'});
 }
 module.exports = {
   client:'pg',
